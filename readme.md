@@ -22,7 +22,7 @@ npm install @danilosampaio/numbers
 
 ### Usage
 ```js
-const { binomialCoefficient } = require('@m4th/numbers');
+const { binomialCoefficient } = require('@danilosampaio/numbers');
 
 // a = 4, b = 2
 binomialCoefficient(4, 2));
@@ -35,7 +35,7 @@ binomialCoefficient(4, 2));
 
 ### Usage
 ```js
-const { congruences } = require('@m4th/numbers');
+const { congruences } = require('@danilosampaio/numbers');
 
 // 3 ≡ 24 (mod 7)
 congruences(3, 24, 7);
@@ -48,7 +48,7 @@ congruences(3, 24, 7);
 
 ### Usage
 ```js
-const { diophantineEquation } = require('@m4th/numbers');
+const { diophantineEquation } = require('@danilosampaio/numbers');
 
 // 3x + 6y = 18
 diophantineEquation.hasSolution(3, 6, 18);
@@ -66,7 +66,7 @@ diophantineEquation.nthSolution(172, 20, 1000, 500, -4250, 1))
 
 ### Usage
 ```js
-const { factorial } = require('@m4th/numbers');
+const { factorial } = require('@danilosampaio/numbers');
 
 // 5!
 factorial(5);
@@ -80,7 +80,7 @@ factorial(5);
 
 ### Usage
 ```js
-const { greatCommonDivisor } = require('@m4th/numbers');
+const { greatCommonDivisor } = require('@danilosampaio/numbers');
 
 // a = 12378, b = 3054
 greatCommonDivisor(12378, 3054));
@@ -94,7 +94,7 @@ greatCommonDivisor(12378, 3054));
 
 ### Usage
 ```js
-const { leastCommonMultiple } = require('@m4th/numbers');
+const { leastCommonMultiple } = require('@danilosampaio/numbers');
 
 // a = 4, b = 6
 leastCommonMultiple(4, 6));
@@ -108,7 +108,7 @@ leastCommonMultiple(4, 6));
 
 ### Usage
 ```js
-const { primes } = require('@m4th/numbers');
+const { primes } = require('@danilosampaio/numbers');
 
 // p = 5
 primes.isPrime(5));
@@ -123,7 +123,7 @@ primes.isPrime(5));
 
 ### Usage
 ```js
-const { triangularNumber } = require('@m4th/numbers');
+const { triangularNumber } = require('@danilosampaio/numbers');
 
 // n = 6
 triangularNumber.isTriangularNumber(6));
