@@ -1,7 +1,7 @@
 {
     "name": "@danilosampaio/numbers",
     "description": "A lib for math calculations.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": {
         "name": "Danilo Sampaio",
         "email": "danilo.sampaio@gmail.com",
