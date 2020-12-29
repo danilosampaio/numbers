@@ -25,7 +25,7 @@ npm install @danilosampaio/numbers
 const { binomialCoefficient } = require('@danilosampaio/numbers');
 
 // a = 4, b = 2
-binomialCoefficient(4, 2));
+binomialCoefficient(4, 2);
 // => 6
 
 ```
@@ -55,7 +55,7 @@ diophantineEquation.hasSolution(3, 6, 18);
 // => true
 
 // The nth solution for 172x + 20b = 1000 | x0 = 500, y0 = -4250, t = 1
-diophantineEquation.nthSolution(172, 20, 1000, 500, -4250, 1))
+diophantineEquation.nthSolution(172, 20, 1000, 500, -4250, 1);
 // => [505, -4293]
 
 ```
@@ -83,7 +83,7 @@ factorial(5);
 const { greatCommonDivisor } = require('@danilosampaio/numbers');
 
 // a = 12378, b = 3054
-greatCommonDivisor(12378, 3054));
+greatCommonDivisor(12378, 3054);
 // => 6
 
 ```
@@ -97,7 +97,7 @@ greatCommonDivisor(12378, 3054));
 const { leastCommonMultiple } = require('@danilosampaio/numbers');
 
 // a = 4, b = 6
-leastCommonMultiple(4, 6));
+leastCommonMultiple(4, 6);
 // => 12
 
 ```
@@ -111,7 +111,7 @@ leastCommonMultiple(4, 6));
 const { primes } = require('@danilosampaio/numbers');
 
 // p = 5
-primes.isPrime(5));
+primes.isPrime(5);
 // => true
 
 ```
@@ -126,11 +126,11 @@ primes.isPrime(5));
 const { triangularNumber } = require('@danilosampaio/numbers');
 
 // n = 6
-triangularNumber.isTriangularNumber(6));
+triangularNumber.isTriangularNumber(6);
 // => true
 
 // The sixth triangular number
-triangularNumber.nth(6));
+triangularNumber.nth(6);
 // => 21
 
 ```

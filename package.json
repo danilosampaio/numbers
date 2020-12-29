@@ -1,7 +1,7 @@
 {
     "name": "@danilosampaio/numbers",
     "description": "A lib for math calculations.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": {
         "name": "Danilo Sampaio",
         "email": "danilo.sampaio@gmail.com",
@@ -15,9 +15,12 @@
     "keywords": [
         "math",
         "binomial coefficient",
+        "congruences",
+        "diophantine equations",
         "factorial",
         "great common divisor",
         "least common multiple",
+        "primes",
         "triangular number"
     ],
     "scripts": {
